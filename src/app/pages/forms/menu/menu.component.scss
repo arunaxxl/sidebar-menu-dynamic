@@ -1,0 +1,20 @@
+@import '../../../@theme/styles/themes';
+
+@include nb-install-component() {
+  nb-card-body {
+    display: flex;
+    justify-content: center;
+
+    input {
+      width: 100%;
+    }
+    nb-icon{
+      font-size: 3rem;
+    }
+  }
+
+  nb-card:hover{
+    background-color: #42aaffc9;
+  }
+}
+
